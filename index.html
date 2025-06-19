@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hridaan Tiwari | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script defer src="port.js"></script>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body class="light-theme">
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hridaan Tiwari</div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="theme-switcher">
+        <label for="theme-select" class="visually-hidden">Select Theme</label>
+        <select id="theme-select" aria-label="Select Theme">
+          <option value="light-theme">Light</option>
+          <option value="dark-theme">Dark</option>
+          <option value="colorful-theme">Colorful</option>
+        </select>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h1>Hello, I’m <span class="highlight">Hridaan Tiwari</span></h1>
+      <p>
+        I’m a Grade 11 student passionate about web development and programming. I specialize in HTML, CSS, and JavaScript, and actively use GitHub to manage my projects. I’m exploring Python, advanced CSS techniques, and artificial intelligence to broaden my skills. Always eager to learn, I enjoy building clean, responsive websites and creating engaging digital experiences.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Git & GitHub</li>
+        <li>Python (Exploring)</li>
+        <li>Advanced CSS (Exploring)</li>
+        <li>Artificial Intelligence (Exploring)</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>A personal website showcasing my skills and projects.</p>
+          <a href="https://github.com/hridaan1231/Portfolioc" target="_blank" rel="noopener">View Code</a>
+        </div>
+        <div class="card">
+          <h3>Simple To-Do App</h3>
+          <p>A basic JavaScript app to manage tasks with add/delete features.</p>
+          <a href="#" target="_blank" rel="noopener">View Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" action="mailto:your.email@example.com" method="post" enctype="text/plain" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Hridaan Tiwari | Crafted with <span class="heart">❤️</span> and code</p>
+  </footer>
+</body>
+</html>
